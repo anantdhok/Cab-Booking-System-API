@@ -37,13 +37,13 @@ The project will start at **localhost:5000** by default.
 
 Following are the endpoints of the API, through which you can communicate with the server.
 
-1. Server Homepage (`localhost:5000/`)
-2. New user registration (`localhost:5000/auth/register`)
-3. Existing user login (`localhost:5000/auth/login`)
-4. Check available rides (`localhost:5000/ride/check`)
-5. Book a available ride (`localhost:5000/ride/book`)
-6. Finish an ongoing ride (`localhost:5000/ride/finish`)
-7. Check completed rides (*GET* - `localhost:5000/ride/completed`)
+1. Server Homepage (get - `localhost:5000/`)
+2. New user registration (post - `localhost:5000/auth/register`)
+3. Existing user login (post - `localhost:5000/auth/login`)
+4. Check available rides (get - `localhost:5000/ride/check`)
+5. Book a available ride (post - `localhost:5000/ride/book`)
+6. Finish an ongoing ride (post - `localhost:5000/ride/finish`)
+7. Check completed rides (get - `localhost:5000/ride/completed`)
   
 ## Author
 
