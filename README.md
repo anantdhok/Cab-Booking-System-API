@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Before starting the project install all dependencies by running, .
+Before starting the project install all dependencies by running,
 * npm
   ```sh
   npm install npm@latest -g
@@ -20,8 +20,8 @@ Before starting the project install all dependencies by running, .
 
 ### Installation
   
-1. Start your SQL server on the device
-2. In project configure `Config.js` according to the SQL server
+1. Start your SQL server on the device.
+2. In project configure `Config.js` according to the SQL server.
 3. After that **Create/Migrate** all the models and database schema in the database, 
   ```sh
   npm install npm@latest -g
