@@ -32,6 +32,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("Complete ds");
+    await queryInterface.dropTable("Completeds");
   },
 };
