@@ -1,7 +1,7 @@
 {
   "name": "cab-booking-api",
   "version": "1.0.0",
-  "description": "API for cab booking system using NodeJS, Express, MySQL, Sequelize.",
+  "description": "API for cab booking system using NodeJS, Express, MySQL, Sequelize, PassportJS and JWT tokenization.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
