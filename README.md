@@ -5,8 +5,8 @@ API for cab booking system using NodeJS, Express, MySQL, Sequelize.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Please follow the given instructions for setting up this project locally.
+To get a local copy check code tab and run following commands to get started.
 
 
 ### Prerequisites
