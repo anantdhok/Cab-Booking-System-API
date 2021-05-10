@@ -24,7 +24,8 @@ Before starting the project install all dependencies by running,
 2. In project configure `Config.js` according to the SQL server.
 3. After that **Create/Migrate** all the models and database schema in the database, 
   ```sh
-  npm install npm@latest -g
+  npx sequelize-cli db:create
+  npx sequelize-cli db:migrate
   ```
 4. Run the project by running, 
   ```sh
@@ -42,7 +43,7 @@ Following are the endpoints of the API, through which you can communicate with t
 3. Existing user login (**post** - `localhost:5000/auth/login`)
 4. Check available rides (**get** - `localhost:5000/ride/check`)
 5. Book a available ride (**post** - `localhost:5000/ride/book`)
-6. Finish an ongoing ride (**post** - `localhost:5000/ride/finish`)
+6. Finish an ongoing ride (**post** - `localhost:5000/ride/finish/:id`)
 7. Check completed rides (**get** - `localhost:5000/ride/completed`)
   
 ## Author
