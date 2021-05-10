@@ -68,8 +68,8 @@ router.post("/register", (req, res) => {
             password: hash,
             name: req.body.name,
             phone: req.body.phone,
-            type: "client",
-            location: { type: "Point", coordinates: [39.807222, -76.984722] },
+            type: req.body.type,
+            location: { type: "Point", coordinates: [req.body.geo.x, req.body.geo.y] },
           })
             .then((userNew) => {
               const payload = { id: userNew.id };
