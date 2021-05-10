@@ -32,7 +32,7 @@ The project will start at
   
 ## Author
 
-Anant Dhok - LinkedIn(https://www.linkedin.com/in/anantdhok-444701/) - anantdhok16@gmail.com
+Anant Dhok - [LinkedIn](https://www.linkedin.com/in/anantdhok-444701/) - anantdhok16@gmail.com
 
 
 ## License
