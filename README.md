@@ -43,7 +43,7 @@ Following are the endpoints of the API, through which you can communicate with t
 4. Check available rides (`localhost:5000/ride/check`)
 5. Book a available ride (`localhost:5000/ride/book`)
 6. Finish an ongoing ride (`localhost:5000/ride/finish`)
-7. Check completed rides (get - `localhost:5000/ride/completed`)
+7. Check completed rides (*GET* - `localhost:5000/ride/completed`)
   
 ## Author
 
