@@ -33,6 +33,18 @@ Before starting the project install all dependencies by running,
 The project will start at **localhost:5000** by default.
   
   
+## Usage
+
+Following are the endpoints of the API, through which you can communicate with the server.
+
+1. Server Homepage (`localhost:5000/`)
+2. New user registration (`localhost:5000/auth/register`)
+3. Existing user login (`localhost:5000/auth/login`)
+4. Check available rides (`localhost:5000/ride/check`)
+5. Book a available ride (`localhost:5000/ride/book`)
+6. Finish an ongoing ride (`localhost:5000/ride/finish`)
+7. Check completed rides (get - `localhost:5000/ride/completed`)
+  
 ## Author
 
 Anant Dhok - [LinkedIn](https://www.linkedin.com/in/anantdhok-444701/) - anantdhok16@gmail.com
