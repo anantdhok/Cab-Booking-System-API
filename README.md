@@ -23,19 +23,22 @@ Before starting the project install all dependencies by running,
   
 1. Start your SQL server on the device.
 2. In project configure `Config.js` according to the SQL server.
-3. After that **Create/Migrate** all the models and database schema in the database, 
-  ```sh
-  npx sequelize-cli db:create
-  npx sequelize-cli db:migrate
-  ```
+3. After that **Create/Migrate** all the models and database schema in the database,
+    
+    ```sh
+    npx sequelize-cli db:create
+    npx sequelize-cli db:migrate
+    ```
 4. Use seeder to import test data, or add new entries using routes.
-  ```sh
-  npx sequelize-cli db:seed:all
-  ```
-6. Finally, Run the project by running, 
-  ```sh
-  node index.js
-  ```
+
+    ```sh
+    npx sequelize-cli db:seed:all
+    ```
+6. Finally, Run the project by running,
+
+    ```sh
+    node index.js
+    ```
 The project will start at **localhost:5000** by default.
   
   
