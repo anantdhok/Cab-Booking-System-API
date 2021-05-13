@@ -13,6 +13,7 @@ To get a local copy check code tab and run following commands to get started.
 
 Before starting the project install all dependencies by running,
 * npm environment
+  
   ```sh
   npm install npm@latest -g
   ```
