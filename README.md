@@ -27,11 +27,10 @@ Before starting the project install all dependencies by running,
   npx sequelize-cli db:create
   npx sequelize-cli db:migrate
   ```
-4. Use seeder to import example data for users,
+4. Use seeder to import test data, or add new entries using routes.
   ```sh
   npx sequelize-cli db:seed:all
   ```
-  or, register new entries using routes.
 6. Finally, Run the project by running, 
   ```sh
   node index.js
