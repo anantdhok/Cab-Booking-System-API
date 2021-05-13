@@ -20,6 +20,8 @@ Before starting the project install all dependencies by running,
   
 
 ### Installation
+
+After installing all dependencies follow these steps to setup the project,
   
 1. Start your SQL server on the device.
 2. In project configure `Config.js` according to the SQL server.
