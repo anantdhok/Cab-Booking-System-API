@@ -3,7 +3,6 @@
 API for cab booking system using NodeJS, Express, MySQL, Sequelize, PassportJS and JWT tokenization.
 
 
-
 ## Getting Started
 
 Please follow the given instructions for setting up this project locally.
@@ -39,7 +38,7 @@ Before starting the project install all dependencies by running,
     ```
 The project will start at **localhost:5000** by default.
   
-  
+
 ## Usage
 
 Following are the endpoints of the API, through which you can communicate with the server.
@@ -60,3 +59,4 @@ Anant Dhok - [LinkedIn](https://www.linkedin.com/in/anantdhok-444701/) - anantdh
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
