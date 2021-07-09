@@ -24,7 +24,7 @@ Before starting the project install all dependencies by running,
 After installing all dependencies follow these steps to setup the project,
   
 1. Start your SQL server on the device.
-2. In project configure `Config.js` according to the SQL server.
+2. In project, configure `Config.js` according to the SQL server.
 3. After that **Create/Migrate** all the models and database schema in the database,
     ```sh
     npx sequelize-cli db:create
