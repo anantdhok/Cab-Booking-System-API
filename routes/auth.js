@@ -123,4 +123,3 @@ router.get("/:id", passport.authenticate(["clientLocal"], { session: false }), (
 });
 
 module.exports = router;
- 
